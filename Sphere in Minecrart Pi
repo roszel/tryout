@@ -18,6 +18,6 @@ for x in range(radius*-1,radius):
         for z in range(radius*-1,radius):
             if x**2 + y**2 + z**2 < (radius**2):
             #the Sphere will the Player not close in.
-#                mc.setBlock(playerPos.x + x, playerPos.y + y + radius, playerPos.z - z - 10, block.GLASS)
+                mc.setBlock(playerPos.x + x, playerPos.y + y + radius, playerPos.z - z - 10, block.GLASS)
 # The sphere will be a solid form, and the creator will be built in.
                 mc.setBlock(playerPos.x + x, playerPos.y + y, playerPos.z, block.AIR)
